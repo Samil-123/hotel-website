@@ -39,7 +39,7 @@ function page() {
              <ContactForm/>
             </div>
             <div className='w-[48%]  max-md:w-full '>
-              <div className=' max-md:hidden   h-[606px] max-2xl:h-[655px]'>
+              <div className='h-[606px] max-2xl:h-[655px]'>
                 <MapWithNoSSR />
 
               </div>
