@@ -65,7 +65,9 @@ function page() {
         </div>
 
       </main>
+      <div className="max-md:pt-28">
       <Footer />
+      </div>
     </div>
   )
 }
