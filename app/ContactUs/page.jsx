@@ -39,21 +39,21 @@ function page() {
              <ContactForm/>
             </div>
             <div className='w-[48%]  max-md:w-full '>
-              <div className='h-[606px] max-2xl:h-[655px]'>
+              <div className='   h-[606px] max-2xl:h-[655px] max-md:h-[420px]'>
                 <MapWithNoSSR />
 
               </div>
-              <div className='mt-7 max-md:mt-2 max-md:py-2 flex max-xl:flex-col max-2xl:justify-start max-2xl:items-start max-2xl:gap-y-3 justify-between items-center text-white text-[.9rem]'>
-                <div className='flex justify-start items-center gap-2'>
+              <div className='mt-7 max-md:mt-2 max-md:py-2 flex max-xl:flex-col max-2xl:justify-start max-2xl:items-start max-2xl:gap-y-3 justify-between items-center text-white text-[.9rem] max-sm:text-[.75rem]'>
+                <div className='flex  max-sm:w-full max-sm:justify-between justify-start items-center gap-2 '>
                   <h2>Email:</h2>
                   <p className='font-light'>avio.apartmani@gmail.com</p>
                 </div>
-                <div className='flex justify-start items-center gap-2'>
+                <div className='flex  max-sm:w-full max-sm:justify-between justify-start items-center gap-2 text-white '>
                   <h2>Adresa:</h2>
                   <p className='font-light'>Salih Bega Rasovca 1/M,Novi Pazar,36300.</p>
                 </div>
               </div>
-              <div className='flex justify-start items-center max-md:py-2  gap-2  text-white text-[.9rem]'>
+              <div className='flex  max-sm:w-full max-sm:justify-between justify-start items-center gap-2 text-white '>
                 <h2>Brojevi telefona:</h2>
                 <p className='font-light'>+381 63 682 782 <span>+381 64 574 1687</span>
 
@@ -65,7 +65,7 @@ function page() {
         </div>
 
       </main>
-      <div className="max-md:pt-28">
+      <div >
       <Footer />
       </div>
     </div>
